@@ -145,7 +145,8 @@ section h2 {
 
 /* The Forbidden Shore Section */
 #forbidden {
-  background: linear-gradient(to right, #0d0d1a, #1f1f2e);
+  background:url("01.jpg");
+  background-size:cover;
   color: #ffffff;
   padding: 30px 20px;
   border-radius: 12px;
@@ -206,6 +207,7 @@ section h2 {
     grid-template-columns: 1fr 1fr;
   }
 }
+
 
 
 
