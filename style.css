@@ -6,7 +6,7 @@
 }
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url('ChatGPT Image Aug b7,2025, 02_56_37 PM.png') no-repeat center center;
+  background: url('02.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
@@ -33,6 +33,7 @@ header {
 header h1 {
   font-size: 28px;
   color: #6cb4ff;
+
 }
 
 header p {
@@ -47,15 +48,15 @@ nav {
   justify-content: space-around;
   background-color: #181828;
   border-radius: 12px;
-  margin-bottom: 30px;
-  padding: 10px;
+  margin-bottom: 50px;
+  padding: 20px;
 }
 
 nav a {
   color: #6cb4ff;
   text-decoration: none;
   font-weight: bold;
-  padding: 20px 25px;
+  padding: 10px 14px;
   border-radius: 8px;
   transition: background-color 0.3s;
 }
@@ -83,7 +84,7 @@ section h2 {
 /* Audio Section */
 .audio-item {
   margin-bottom: 20px;
-  background-color: dark blue;
+  background-color: #252540;
   padding: 15px;
   border-radius: 10px;
 }
@@ -145,8 +146,8 @@ section h2 {
 
 /* The Forbidden Shore Section */
 #forbidden {
-  background:url("01.jpg");
-  background-size:cover;
+  background:url("01.jpg") no-repeat center center;
+  background-size: cover;
   color: #ffffff;
   padding: 30px 20px;
   border-radius: 12px;
@@ -192,13 +193,13 @@ section h2 {
 }
 
 #forbidden a:hover {
-  background-color: #ffffff;
+  background-color: #499402;
   color: #000000;
 }
 
 /* About Section */
 #about p {
-  color: #ccc;
+  color: #ffffff;
 }
 
 /* Responsive */
@@ -207,7 +208,3 @@ section h2 {
     grid-template-columns: 1fr 1fr;
   }
 }
-
-
-
-
