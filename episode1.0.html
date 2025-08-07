@@ -54,25 +54,28 @@
   </div>
 
 </body>
-<style>
-body {
+  <style>
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  overflow: hidden;
   font-family: 'Segoe UI', Tahoma, sans-serif;
-  background:url("01.jpg") no-repeat center center;
+  background: url("01.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #f0f0f0;
-  line-height: 1.8;
-  padding: 20px;
 }
 
 .episode-container {
+  height: 100vh;
+  overflow-y: auto;
   max-width: 700px;
   margin: auto;
   background: rgba(255, 255, 255, 0.03);
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
 }
 
 header {
@@ -96,11 +99,15 @@ header p {
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 10px;
-}
-
-.panel p {
   font-size: 16px;
   color: #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.panel:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(108, 180, 255, 0.3);
+  background-color: #181830;
 }
 
 footer {
@@ -129,25 +136,6 @@ footer {
   pointer-events: none;
   cursor: default;
 }
-.panel {
-  background-color: #121220;
-  border-left: 4px solid #6cb4ff;
-  padding: 15px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.panel:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 15px rgba(108, 180, 255, 0.3);
-  background-color: #181830;
-}
-
-
-
-
-
-
 </style>
-</html>      
+</html>
+
