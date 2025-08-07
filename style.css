@@ -55,7 +55,7 @@ nav a {
   color: #6cb4ff;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 14px;
+  padding: 20px 25px;
   border-radius: 8px;
   transition: background-color 0.3s;
 }
@@ -83,7 +83,7 @@ section h2 {
 /* Audio Section */
 .audio-item {
   margin-bottom: 20px;
-  background-color: #252540;
+  background-color: dark blue;
   padding: 15px;
   border-radius: 10px;
 }
@@ -206,5 +206,6 @@ section h2 {
     grid-template-columns: 1fr 1fr;
   }
 }
+
 
 
